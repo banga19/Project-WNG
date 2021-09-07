@@ -1,0 +1,532 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,700&family=Galada&display=swap" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>About Us</title>
+</head>
+
+<style>
+  nav{
+    background-color:darkslategrey;
+  } 
+  
+  #logo {
+    font-family: "Galada", cursive;
+    font-size: 40px;
+
+  }
+
+  h5 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color:rgba(236, 8, 27, 0.863);
+  font-size:32px;
+  }
+
+  h3 {
+    font-family: "Galada", cursive;
+    font-size: 75px;
+  }
+
+  #card2 {
+    background: url(img/background/thumbnails/bg_1.jpg);
+    background-size:cover;
+    position: relative;
+    padding: 60px 0 40px 0;
+    
+  }
+  
+
+
+ 
+  #card3 {
+    background-color: darkslategrey;
+    background-size:cover;
+    position: relative;
+    padding: 60px 0 40px 0;
+  }
+
+  #card4 {
+    background-color: darkgray;
+    background-size:cover;
+    position: relative;
+    padding: 60px 0 40px 0;
+  }
+
+  #card5{
+    background-color:darkslategray;
+    background-size:cover;
+    position: relative;
+    padding: 60px 0 40px 0;
+  }
+
+  #box5{
+    background-color: darkslategray;
+    position: cover;
+  }
+
+  footer{
+    background-color: darkslategrey;
+  }
+
+
+
+</style>
+
+
+
+
+<!--Navbar -->
+<nav class="navbar-fixed nav-wrapper">
+  <div class="">
+    <a href="#" class="brand-logo" id="logo">Sparkle Time</a>
+    <a href="" class="sidenav-trigger" data-target="mobile-links">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="book.html">Book An Appointment</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="Accounts/login.html">Login</a></li>
+      <li><a href="Accounts/register.html">Create Account</a></li>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="book.html">Book An Appointment</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="Accounts/login.html">Login</a></li>
+  <li><a href="Accounts/register.html">Create Account</a></li>
+</ul>
+
+<!--Step 1-->
+
+<section class="section" id="section1">
+  <h5 class="center">Step 01 </h5>
+  <h3 class="center"> Choose Your Car Type</h3>
+
+  <div class="row">
+    <ul class=" tabs center ">
+      <li class="tab center">
+        <a href="#sedan">Sedan</a>
+      </li>
+      <li class="tab center">
+        <a href="#SUV">SUV</a>
+      </li>
+      <li class="tab center">
+        <a href="#Pickup">Pickup</a>
+      </li>
+      <li class="tab center">
+        <a href="#Mini">Minibus</a>
+      </li>
+    </ul>
+
+    <div class="" id="sedan">
+      <div class="col s12 l6 center">
+        <img class="responsive-img" src="img/CarType/sedan.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="" id="SUV">
+      <div class="col s12 l6 center">
+        <img class="responsive-img " src="img/CarType/SUV.jpg" alt="">
+      </div>
+    </div>
+
+    <div class=" " id="Pickup">
+      <div class="col s12 l6 center">
+        <img src="img/CarType/pickup.jpg" alt="" class="responsive-img">
+      </div>
+    </div>
+
+    <div id="Mini">
+      <div class=" col s12 l6 center">
+        <img src="img/CarType/minibus.jpg" alt="" class="responsive-img">
+      </div>
+    </div>
+
+
+</section>
+
+<hr>
+
+<!-- Step 2-->
+<section class="section" id="section2">
+  <div class="header center">
+    <h5>Step 02</h5>
+    <h3>Washing Plan</h3>
+  </div>
+
+  <div class="row">
+    <div class="col center hoverable s6 l4">
+      <div class="card" id="card2">
+        <h5 class="center">Basic Cleaning</h5>
+        <h2 class="center">Ksh. 150</h2>
+
+        <p class="center"><ion-icon name="checkmark-outline" ></ion-icon>Exterior Washing</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Vaccum Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Interior Wet Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Window Wiping</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>30 min</p>
+
+        <p class="center"><a href="#" class="waves-effect waves-light  btn">Select Plan <ion-icon name="play-circle" size="medium"></ion-icon></a></p>
+      </div>
+    </div>
+
+
+    <div class="col center hoverable s6 l4">
+      <div class="card" id="card2">
+        <h5 class="center">Basic Cleaning</h5>
+        <h2 class="center">Ksh. 250</h2>
+
+        <p class="center"><ion-icon name="checkmark-outline" ></ion-icon>Exterior Washing</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Vaccum Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Interior Wet Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Window Wiping</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>30 min</p>
+
+        <p class="center"><a href="#" class="waves-effect waves-light  btn">Select Plan <ion-icon name="play-circle" size="medium"></ion-icon></a></p>
+      </div>
+    </div>
+
+
+    <div class="col center hoverable s6 l4">
+      <div class="card" id="card2">
+        <h5 class="center">Express Washing</h5>
+        <h2 class="center">Ksh. 150</h2>
+
+        <p class="center"><ion-icon name="checkmark-outline" ></ion-icon>Exterior Washing</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Vaccum Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Interior Wet Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Window Wiping</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>30 min</p>
+
+        <p class="center"><a href="#" class="waves-effect waves-light  btn">Select Plan <ion-icon name="play-circle" size="medium"></ion-icon></a></p>
+      </div>
+    </div>
+
+
+    <div class="col center hoverable s6 l4">
+      <div class="card" id="card2">
+        <h5 class="center"> Premium Service</h5>
+        <h2 class="center">Ksh. 350</h2>
+
+        <p class="center"><ion-icon name="checkmark-outline" ></ion-icon>Exterior Washing</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Vaccum Cleaning</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Interior Wet Cleaning</p>
+        <p class="center"><ion-icon name="close-outline"></ion-icon>Window Wiping</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>30 min</p>
+
+
+        <p class="center"><a href="#" class="waves-effect waves-light  btn">Select Plan <ion-icon name="play-circle" size="medium"></ion-icon></a></p>
+      </div>
+    </div>
+
+    <div class="col center hoverable s6 l4">
+      <div class="card" id="card2">
+        <h5 class="center">Full Complex</h5>
+        <h2 class="center"> Ksh. 500</h2>
+
+        <p class="center"><ion-icon name="checkmark-outline" ></ion-icon>Exterior Washing</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Vaccum Cleaning</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Interior Wet Cleaning</p>
+        <p class="center"><ion-icon name="checkmark-outline"></ion-icon>Window Wiping</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>30 min</p>
+
+
+        <p class="center"><a href="#" class="waves-effect waves-light  btn">Select Plan <ion-icon name="play-circle" size="medium"></ion-icon></a></p>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<hr>
+
+<!--Step 03-->
+
+<section class="section" id="section3">
+  <div class="header center">
+    <h5>Step 03</h5>
+    <h3>Additional Services</h3>
+  </div>
+  
+  <div class="row">
+    <div class="col s12 l4">
+      <div class="card hoverable" id="card3">
+        <h5 class="center">Hard Stain Removing</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Accusamus commodi beatae nisi expedita ipsa harum dignissimos, </p>
+      
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>10 min</p>
+      </div>
+    </div>
+
+
+    <div class="col s12 l4">
+      <div class="card hoverable" id="card3">
+        <h5 class="center">Air refresher</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Accusamus commodi beatae nisi expedita ipsa harum dignissimos</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>10 min</p>
+      </div>
+    </div>
+
+    <div class="col s12 l4">
+      <div class="card hoverable" id="card3">
+        <h5 class="center">Interior Cleaning</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Accusamus commodi beatae nisi expedita ipsa harum dignissimos</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>10 min</p>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <div class="card hoverable" id="card3">
+        <h5 class="center">Leather Restoration</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Accusamus commodi beatae nisi expedita ipsa harum dignissimos</p>
+
+        <p class="center"><ion-icon name="timer-outline"></ion-icon>15 min</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<hr>
+
+<!--Step 04-->
+
+<section class="section" id="section4">
+
+  <div class="header center">
+    <h5>Step 04</h5>
+    <h3> Date & Time</h3>
+  </div>
+
+  <div class="row">
+  <div class=" col s6 l4 card" id="card3">
+    <input type="text" placeholder="Pick a Date" class="datepicker center">
+  </div>
+
+  <div class="card col s6 l4 " id="card3">
+    <input type="text" placeholder="Pick the Time" class="timepicker center">
+  </div>
+
+  </div>
+
+
+
+  <p class="center">* Reservation times are approximate and may vary within 15 minutes.</p>
+</section>
+
+
+
+<!--step 05-->
+<section class="section" id="section5">
+  <div class="header">
+    <h5 class="center">Step 05</h5>
+    <h3 class="center">SUMMARY & CONFIRMATION</h3>
+  </div>
+
+  <div class="row">
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+          <ion-icon  size="large" name="car-sport-outline"></ion-icon>
+        </div>
+        <h5 class="center" >CAR TYPE</h5>
+        <!--selected car type by user-->
+      </div>
+    </div>
+
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+          <ion-icon size="large" name="water-outline"></ion-icon>
+        </div>
+        
+        <h5 class="center">WASHING PLAN</h5>
+        <!--selected washing type by user type by user-->
+      </div>
+    </div>
+
+
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+          <ion-icon size="large" name="calendar-outline"></ion-icon>
+        </div>
+        
+        <h5 class="center">BOOKING DATE</h5>
+        <!--selected DATE  by user type by user. Use if else statement -->
+      </div>
+    </div>
+
+
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+          <ion-icon size="large" name="hourglass-outline"></ion-icon>
+        </div>
+        
+        <h5 class="center">BOOKING TIME</h5>
+        <!--selected TIME type by user type by user-->
+      </div>
+    </div>
+
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+          <ion-icon size="large" name="timer-outline"></ion-icon>
+        </div>
+        
+        <h5 class="center">DURATION</h5>
+        <!--selected by user type by user-->
+      </div>
+    </div>
+
+    <div class="col s4 l5">
+      <div class="card" id="card5">
+        <div class="center">
+         <ion-icon  class="center" name="cash-outline"></ion-icon>
+        </div>
+        
+        <h5 class="center">TOTAL PRICE</h5>
+        <!--selected by user type by user-->
+      </div>
+    </div>
+
+    <br>
+
+    <div class="col s12 section ">
+      <h5 class="center">Please input your Contact details</h5>
+      <p class="center">In order to make booking you need to choose a plan, time and fill all required form fields.</p>
+      <form class="col s12" id="box5">
+        <div class="row">
+          <div class="input-field col s6 red-text text-accent-3 ">
+            <div class="prefix">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </div>
+            <input type="text" class="validate" id="first_name">
+            <label for="first_name">First Name</label>
+          </div>
+
+          <div class="input-field col s6 red-text text-accent-3">
+            <div class="prefix">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </div>
+            <input type="text" class="validate" id="last_name">
+            <label for="last_name">Last Name</label>
+          </div>
+
+          <div class="input-field col s6 red-text text-accent-3">
+            <div class="prefix">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <input type="text" class="validate" id="phone" >
+            <label for="phone">Phone</label>
+          </div>
+
+          <div class="input-field col s6 red-text text-accent-3">
+            <div class="prefix">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <input type="email" class="validate" id="email">
+            <label for="email"> Email</label>
+          </div>
+
+          <div class="input-field col s6 red-text text-accent-3">
+            <div class="prefix">
+              <ion-icon name="information-circle-outline"></ion-icon>
+            </div>
+            <textarea name="" id="text_area" cols="30" rows="10"></textarea>
+            <label for="text_area"> Additional Information</label>
+          </div>
+        </div>
+
+      </form>
+    
+    </div>
+
+  </div>
+</section>
+
+<br>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text center">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text center">Contact Us</h5>
+          <div class=" container">
+            <ul >
+              <li ><a href="#"><ion-icon name="logo-facebook" class="left" size="large"></ion-icon></a></li>
+              <li ><a href="#"><ion-icon name="logo-twitter" class="left" size="large"></ion-icon></a> <li>
+              <li ><a href="#"><ion-icon name="logo-instagram" class="left" size="large"></ion-icon></a></li>
+              <li><a href=""><ion-icon name="call-outline" class="left" size="large"></ion-icon></a></li>
+            </ul>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container center">
+    © 2020 Sparkle Time
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.materialboxed') .materialbox();
+    $('.parallax') .parallax()
+    $('.tabs').tabs();
+    $('.scrollspy') .scrollSpy();
+    $('.carousel').carousel();
+    $('.pushpin').pushpin();
+    $('.tooltipped') .tooltip();
+    $('.timepicker') .timepicker();
+    $('.datepicker') .datepicker();
+
+  });
+</script>
+
+<!-- Icons -->
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>
